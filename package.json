@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "alias": {
+    "preact/jsx-dev-runtime": "preact/jsx-runtime"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.6.0",
+    "parcel": "^2.6.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "lodash.debounce": "^4.0.8",
+    "preact": "^10.7.2"
+  }
+}
